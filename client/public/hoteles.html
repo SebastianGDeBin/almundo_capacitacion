@@ -4,11 +4,12 @@
 	<title> Resultado de hoteles</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<main>
-		<header>
+	<main class="hotel-results">
+		<header class="main-header">
 			<h1><a href="">almundo.com</a></h1>
       
 			<nav>
@@ -19,7 +20,7 @@
 			</nav>
 
 		</header>
-		<nav>
+		<nav class="main-menu">
 			<a href=""> Hoteles </a>
 			<a href=""> Vuelos </a>
 			<a href=""> Vuelos + Hotel </a>
@@ -36,15 +37,15 @@
 		<section>
 			SearchBox
 		</section>
-		<article>
-			<section>
+		<article class="filteres-results">
+			<section class="filter-container">
 				<header>
 					<h3>Nombre del hotel</h3>
 						<input type="text" name="nombre" value="Ingrese un nombre">
 						<button type="submit">Aceptar</button>
 				</header>
 			</section>
-			<section>	
+			<section class="list-container">	
 				<header>
 					<h3>Regimenes</h3>
 				</header>
