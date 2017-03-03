@@ -3,9 +3,10 @@ const app = express();
 const path = require('path');
 
 
-app.get('/', function(req, res) {
+app.get('/',(req, res)=> {
     res.sendFile(path.join(__dirname + '/../public/hoteles.html'));
-});
+}); 
+
 
 app.get('/user', function(req, res) {
     console.log(req.query);
