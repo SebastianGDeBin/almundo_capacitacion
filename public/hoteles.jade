@@ -1,0 +1,27 @@
+html
+	head
+		title #{title}
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet', href='../css/normalize.css')
+		link(rel='stylesheet', href='../css/style.css')
+
+	body
+		include header.jade
+
+			nav
+				crumb
+
+			section
+				SearchBox
+
+			article.filteres-result
+				include searchBar.jade
+
+				include regimenes.jade
+
+				section
+					header
+						h3 Lista hoteles Santiago de Chile
+
+					include result.jade

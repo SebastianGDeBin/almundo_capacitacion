@@ -1,16 +1,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const fs = require('fs');
 
+app.set('views', path.join(__dirname + '/../public'));
+app.set('view engine', 'jade');
 
-app.get('/',(req, res)=> {
-    res.sendFile(path.join(__dirname + '/../public/hoteles.html'));
-}); 
-
-
-app.get('/user', function(req, res) {
-    console.log(req.query);
-    	res.json({name:req.query.nombre});
+app.get('/', function (req, res) {
+  res.render('hoteles', {title:'Resultado de hoteles', nameHotel:'Nombre del Hotel', titleFilter:'Regimenes'});
 });
 
 app.listen(3000);
