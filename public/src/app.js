@@ -1,0 +1,1 @@
+angular.module("holaMundo",[]); /*definicion de modulo----- en [] soloVanModulos, no controller*/

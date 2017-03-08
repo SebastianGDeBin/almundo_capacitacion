@@ -1,0 +1,18 @@
+{
+  "name": "angular",
+  "homepage": "https://github.com/SebastianGDeBin/almundo_capacitacion",
+  "authors": [
+    "Sebastian De Bin <sebastiandebin@live.com.ar>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
