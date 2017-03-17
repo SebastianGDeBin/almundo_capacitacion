@@ -19,5 +19,8 @@
 
   function firstCompController() {
     var _self = this;
+
+    this.number = 20;
+    this.p = 42;
   }
 })();

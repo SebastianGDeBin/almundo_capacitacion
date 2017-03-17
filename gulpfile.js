@@ -36,7 +36,7 @@ gulp.task('package', () => {
   return merge(tasks);
 });
 
-gulp.task('template-cache', () =>{
+gulp.task('template-cache',['convertPugToHTML'], () =>{
   return gulp.src('public/js/**/*.html')
     .pipe(templateCache('app.template.js',{
       module: 'App',
