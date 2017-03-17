@@ -1,40 +1,4 @@
-@media only screen and (max-width: 767px) {
-  .p {
-    margin: 0; } }
-
-a {
-  color: blue;
-  padding: 30px; }
-  a:hover {
-    color: #0000cc; }
-
-button {
-  font-weight: hold;
-  font-size: 12px;
-  line-height: 14.4px;
-  border: 2px solid;
-  background: greenyellow;
-  color: #fff;
-  padding: 20px;
-  color: #ccc; }
-  buttonhover {
-    color: #0000cc; }
-
-p {
-  color: #fff;
-  font-size: 36px; }
-  @media only screen and (max-width: 767px) {
-    p {
-      background: #999; }
-      p::after {
-        content: 'Phone'; } }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    p {
-      background: #666; }
-      p::after {
-        content: 'Tablet'; } }
-  @media only screen and (min-width: 1024px) {
-    p {
-      background: #333; }
-      p::after {
-        content: 'Desktop'; } }
+first-comp {
+  display: block; }
+  first-comp .estilo {
+    color: blue; }

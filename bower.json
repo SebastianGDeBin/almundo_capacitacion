@@ -1,13 +1,12 @@
 {
-  "name": "almundo_capacitacion",
-  "homepage": "https://github.com/SebastianGDeBin/almundo_capacitacion",
-  "authors": [
-    "Sebastian De Bin <sebastiandebin@live.com.ar>"
-  ],
+  "name": "almundo_app",
   "description": "",
-  "main": "",
-  "license": "MIT",
-  "private": true,
+  "main": "index.js",
+  "authors": [
+    "Ezequiel Feierstein <efeierstein93@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/decarialeonardo/almundo_app",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,6 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.1.1"
+    "angular": "^1.6.3"
   }
 }
